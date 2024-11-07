@@ -81,17 +81,17 @@
   );
 }
 .gradient::before {
-  color: $clr-neutral-900;
+  color: rgba(152, 155, 159, 0.715);
   position: absolute;
 }
 
 .t1::before {
-  content: "Pravin";
-  animation: gradient-background-1 8s infinite;
+  content: "Lekha";
+  // animation: gradient-background-1 8s infinite;
 }
 .t2::before {
-  content: "Mane.";
-  animation: gradient-background-2 8s infinite;
+  content: "Chilumula";
+  // animation: gradient-background-2 8s infinite;
 }
 
 @keyframes gradient-background-1 {
